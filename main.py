@@ -25,14 +25,14 @@ def get_data(filname):
 with header:
     st.title(" Excited to start a new Project in Streamlit ")
     st.write('Welcome to my awesome Data Science project in  Streamlit App:')
-    st.text('In This model I would like to look into the transactions of taxis in NYC:')
+    st.text('In This model I would like to look into the features that could affect Husing prices in Boston:')
 
 with dataset:
     st.header('Boston House Pricing ')
     st.text('I found this data set on Kaggle...')
 
     # calling function once to get data... because its cached
-    boston_data=get_data('data/Boston.csv')
+    boston_data=get_data('Boston.csv')
 
     st.write(boston_data.head())
     st.subheader('Age of House Distribution')
