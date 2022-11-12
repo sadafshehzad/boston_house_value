@@ -13,21 +13,7 @@ features=st.beta_container()
 model_training=st.beta_container()
 
 
-st.markdown(
-    """
-    <style>
-    .main {
-        background_color: #F5F5F5;
-        #background-image: url(‘image.png’);
 
-        
-    }
-   
-    
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 @st.cache
@@ -60,7 +46,7 @@ with dataset:
 
 
 
-#Users\shehz\Documents\Sadaf_Data_analysis\Streamlit_projects\st_first
+
 
 
 with features:
